@@ -29,3 +29,10 @@ W pliku `style.css` zmień zmienne CSS w `:root`:
 ## Elementor (układ podobny do sklepu meblowego)
 - Gotową rozpiskę sekcji i klas CSS znajdziesz w `elementor-home-structure.md`.
 - W Elementorze dodawaj klasy sekcji/elementów: `prmb-hero`, `prmb-category-grid`, `prmb-featured-products`, `prmb-usp-strip`, `prmb-inspirations`, `prmb-newsletter`.
+
+## Import gotowego szablonu Elementor (JSON)
+1. Wejdź w `Szablony -> Zapisane szablony -> Importuj szablon`.
+2. Zaimportuj plik: `wp-content/themes/astra-prmble-child/elementor/homepage-prmble-template.json`.
+3. Utwórz nową stronę i kliknij `Edytuj w Elementor`.
+4. Wstaw zaimportowany szablon `PRMBLE Home Starter`.
+5. Podmień placeholdery obrazów, produkty i teksty na docelowe.

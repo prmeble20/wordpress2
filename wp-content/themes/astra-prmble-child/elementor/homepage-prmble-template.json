@@ -1,0 +1,67 @@
+{
+  "version": "0.4",
+  "title": "PRMBLE Home Starter",
+  "type": "page",
+  "content": [
+    {
+      "id": "prmb_hero",
+      "elType": "section",
+      "settings": {
+        "css_classes": "prmb-hero",
+        "content_width": "boxed",
+        "gap": "extended"
+      },
+      "elements": [
+        {
+          "id": "hero_col_left",
+          "elType": "column",
+          "settings": {"_column_size": 60},
+          "elements": [
+            {"id": "hero_title","elType": "widget","widgetType": "heading","settings": {"title": "Meble do Twojego domu"}},
+            {"id": "hero_text","elType": "widget","widgetType": "text-editor","settings": {"editor": "Nowoczesne kolekcje, szybka dostawa i sprawdzona jakość."}},
+            {"id": "hero_btn_main","elType": "widget","widgetType": "button","settings": {"text": "Kup teraz", "css_classes": "prmb-btn-main"}},
+            {"id": "hero_btn_alt","elType": "widget","widgetType": "button","settings": {"text": "Zobacz inspiracje", "css_classes": "prmb-btn-alt"}}
+          ]
+        },
+        {
+          "id": "hero_col_right",
+          "elType": "column",
+          "settings": {"_column_size": 40},
+          "elements": [
+            {"id": "hero_img","elType": "widget","widgetType": "image","settings": {"image": {"url": "https://via.placeholder.com/900x700?text=PRMBLE+Hero"}}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prmb_categories",
+      "elType": "section",
+      "settings": {"css_classes": "prmb-category-grid"},
+      "elements": []
+    },
+    {
+      "id": "prmb_products",
+      "elType": "section",
+      "settings": {"css_classes": "prmb-featured-products"},
+      "elements": []
+    },
+    {
+      "id": "prmb_usp",
+      "elType": "section",
+      "settings": {"css_classes": "prmb-usp-strip"},
+      "elements": []
+    },
+    {
+      "id": "prmb_inspirations",
+      "elType": "section",
+      "settings": {"css_classes": "prmb-inspirations"},
+      "elements": []
+    },
+    {
+      "id": "prmb_newsletter",
+      "elType": "section",
+      "settings": {"css_classes": "prmb-newsletter"},
+      "elements": []
+    }
+  ]
+}
