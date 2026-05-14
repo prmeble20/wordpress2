@@ -1,0 +1,146 @@
+/*
+Theme Name: Astra PRMBLE Child
+Theme URI: https://example.com/astra-prmble-child
+Description: Motyw potomny Astra pod sklep WooCommerce w stylistyce zbliżonej do docelowego sklepu meblowego (szarości, biel, delikatny bordo).
+Author: Aleksander Skąpski
+Template: astra
+Version: 1.0.0
+Text Domain: astra-prmble-child
+*/
+
+:root {
+  --prmb-bg: #f7f7f7;
+  --prmb-surface: #ffffff;
+  --prmb-text: #2d2d2d;
+  --prmb-muted: #717171;
+  --prmb-border: #e6e6e6;
+  --prmb-accent: #7f2e3c;
+  --prmb-accent-hover: #6a2531;
+  --prmb-radius: 6px;
+  --prmb-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+body {
+  background: var(--prmb-bg);
+  color: var(--prmb-text);
+}
+
+.site,
+#content,
+.site-content {
+  background: var(--prmb-bg);
+}
+
+h1, h2, h3, h4, h5, h6,
+.woocommerce-loop-product__title,
+.entry-title {
+  color: var(--prmb-text);
+  font-weight: 600;
+}
+
+a {
+  color: var(--prmb-accent);
+}
+
+a:hover,
+a:focus {
+  color: var(--prmb-accent-hover);
+}
+
+.ast-builder-menu-1 .menu-item > .menu-link,
+.ast-builder-menu-1 .sub-menu .menu-item > .menu-link {
+  color: var(--prmb-text);
+}
+
+.ast-builder-menu-1 .menu-item.current-menu-item > .menu-link,
+.ast-builder-menu-1 .menu-item > .menu-link:hover {
+  color: var(--prmb-accent);
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product,
+.woocommerce div.product,
+.ast-woocommerce-container {
+  background: var(--prmb-surface);
+  border: 1px solid var(--prmb-border);
+  border-radius: var(--prmb-radius);
+}
+
+.woocommerce ul.products li.product {
+  box-shadow: var(--prmb-shadow);
+  padding: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.woocommerce ul.products li.product:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.woocommerce ul.products li.product .price,
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+  color: var(--prmb-accent);
+  font-weight: 600;
+}
+
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.button,
+.wp-block-button__link {
+  background-color: var(--prmb-accent);
+  border: 1px solid var(--prmb-accent);
+  color: #fff;
+  border-radius: var(--prmb-radius);
+}
+
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover,
+.button:hover,
+.wp-block-button__link:hover {
+  background-color: var(--prmb-accent-hover);
+  border-color: var(--prmb-accent-hover);
+  color: #fff;
+}
+
+.widget,
+.woocommerce .widget,
+.sidebar-main .widget {
+  background: var(--prmb-surface);
+  border: 1px solid var(--prmb-border);
+  border-radius: var(--prmb-radius);
+  padding: 18px;
+}
+
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error {
+  border-top-color: var(--prmb-accent);
+}
+
+.woocommerce .quantity .qty,
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea,
+.woocommerce form .form-row select,
+select,
+input,
+textarea {
+  border: 1px solid #d7d7d7;
+  border-radius: var(--prmb-radius);
+}
+
+.site-footer,
+.ast-footer-copyright {
+  background: #efefef;
+  color: var(--prmb-muted);
+}
+
+@media (max-width: 768px) {
+  .woocommerce ul.products li.product {
+    padding: 10px;
+  }
+}
