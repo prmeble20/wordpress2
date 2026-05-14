@@ -24,3 +24,8 @@ W pliku `style.css` zmień zmienne CSS w `:root`:
 - Dodać własne bannery kategorii i sekcję inspiracji na stronie głównej.
 - Ustawić zdjęcia produktowe w spójnych proporcjach.
 - Skonfigurować filtrację produktów (atrybuty, cena, producenci).
+
+
+## Elementor (układ podobny do sklepu meblowego)
+- Gotową rozpiskę sekcji i klas CSS znajdziesz w `elementor-home-structure.md`.
+- W Elementorze dodawaj klasy sekcji/elementów: `prmb-hero`, `prmb-category-grid`, `prmb-featured-products`, `prmb-usp-strip`, `prmb-inspirations`, `prmb-newsletter`.

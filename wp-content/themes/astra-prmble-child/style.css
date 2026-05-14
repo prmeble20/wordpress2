@@ -144,3 +144,71 @@ textarea {
     padding: 10px;
   }
 }
+
+/* Elementor starter layout classes */
+.prmb-hero {
+  background: linear-gradient(135deg, #fafafa 0%, #f1f1f1 100%);
+  border: 1px solid var(--prmb-border);
+  border-radius: var(--prmb-radius);
+  box-shadow: var(--prmb-shadow);
+  padding: clamp(24px, 4vw, 56px);
+}
+
+.prmb-hero h1,
+.prmb-hero .elementor-heading-title {
+  font-size: clamp(2rem, 3.2vw, 3.2rem);
+  line-height: 1.15;
+  margin-bottom: 12px;
+}
+
+.prmb-btn-main .elementor-button,
+.elementor-widget-button.prmb-btn-main .elementor-button {
+  background: var(--prmb-accent);
+  border: 1px solid var(--prmb-accent);
+  color: #fff;
+}
+
+.prmb-btn-alt .elementor-button,
+.elementor-widget-button.prmb-btn-alt .elementor-button {
+  background: transparent;
+  border: 1px solid #c7c7c7;
+  color: var(--prmb-text);
+}
+
+.prmb-category-grid .elementor-widget-image-box,
+.prmb-card {
+  background: var(--prmb-surface);
+  border: 1px solid var(--prmb-border);
+  border-radius: var(--prmb-radius);
+  box-shadow: var(--prmb-shadow);
+  overflow: hidden;
+}
+
+.prmb-category-grid .elementor-widget-image-box:hover,
+.prmb-card:hover {
+  transform: translateY(-3px);
+  transition: transform 0.2s ease;
+}
+
+.prmb-usp-strip {
+  background: #f2f2f2;
+  border-radius: var(--prmb-radius);
+  border: 1px solid var(--prmb-border);
+}
+
+.prmb-inspirations .elementor-image,
+.prmb-inspirations .elementor-widget-image img {
+  border-radius: var(--prmb-radius);
+}
+
+.prmb-newsletter {
+  background: #f3f3f3;
+  border: 1px solid var(--prmb-border);
+  border-radius: var(--prmb-radius);
+  padding: clamp(20px, 3vw, 36px);
+}
+
+.prmb-newsletter input[type="email"],
+.prmb-newsletter input[type="text"] {
+  min-height: 46px;
+}
