@@ -1,0 +1,102 @@
+{
+  "version": "0.4",
+  "title": "PRMBLE Home Starter",
+  "type": "page",
+  "content": [
+    {
+      "id": "prmb_hero",
+      "elType": "section",
+      "settings": {
+        "css_classes": "prmb-hero",
+        "content_width": "boxed",
+        "gap": "extended"
+      },
+      "elements": [
+        {
+          "id": "hero_col_left",
+          "elType": "column",
+          "settings": {"_column_size": 60},
+          "elements": [
+            {"id": "hero_badge","elType": "widget","widgetType": "heading","settings": {"title": "Kolekcja 2026","size": "small"}},
+            {"id": "hero_title","elType": "widget","widgetType": "heading","settings": {"title": "Meble do Twojego domu"}},
+            {"id": "hero_text","elType": "widget","widgetType": "text-editor","settings": {"editor": "Nowoczesne kolekcje, szybka dostawa i sprawdzona jakość. Urządź salon, sypialnię i jadalnię w jednym stylu."}},
+            {"id": "hero_btn_main","elType": "widget","widgetType": "button","settings": {"text": "Kup teraz", "css_classes": "prmb-btn-main"}},
+            {"id": "hero_btn_alt","elType": "widget","widgetType": "button","settings": {"text": "Zobacz inspiracje", "css_classes": "prmb-btn-alt"}}
+          ]
+        },
+        {
+          "id": "hero_col_right",
+          "elType": "column",
+          "settings": {"_column_size": 40},
+          "elements": [
+            {"id": "hero_img","elType": "widget","widgetType": "image","settings": {"image": {"url": "https://via.placeholder.com/900x700?text=PRMBLE+Hero"}}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prmb_categories",
+      "elType": "section",
+      "settings": {"css_classes": "prmb-category-grid", "content_width": "boxed"},
+      "elements": [
+        {
+          "id": "cat_col_1",
+          "elType": "column",
+          "settings": {"_column_size": 25},
+          "elements": [
+            {"id": "cat_1","elType": "widget","widgetType": "image-box","settings": {"title_text": "Sofy i narożniki", "description_text": "Komfort na co dzień", "image": {"url": "https://via.placeholder.com/600x420?text=Sofy"}}}
+          ]
+        },
+        {
+          "id": "cat_col_2",
+          "elType": "column",
+          "settings": {"_column_size": 25},
+          "elements": [
+            {"id": "cat_2","elType": "widget","widgetType": "image-box","settings": {"title_text": "Stoły", "description_text": "Jadalnia i salon", "image": {"url": "https://via.placeholder.com/600x420?text=Stoly"}}}
+          ]
+        },
+        {
+          "id": "cat_col_3",
+          "elType": "column",
+          "settings": {"_column_size": 25},
+          "elements": [
+            {"id": "cat_3","elType": "widget","widgetType": "image-box","settings": {"title_text": "Łóżka", "description_text": "Spokojny sen", "image": {"url": "https://via.placeholder.com/600x420?text=Lozka"}}}
+          ]
+        },
+        {
+          "id": "cat_col_4",
+          "elType": "column",
+          "settings": {"_column_size": 25},
+          "elements": [
+            {"id": "cat_4","elType": "widget","widgetType": "image-box","settings": {"title_text": "Komody", "description_text": "Więcej miejsca", "image": {"url": "https://via.placeholder.com/600x420?text=Komody"}}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prmb_usp",
+      "elType": "section",
+      "settings": {"css_classes": "prmb-usp-strip", "content_width": "boxed"},
+      "elements": [
+        {"id": "usp_1","elType": "column","settings": {"_column_size": 33},"elements": [{"id": "usp_h1","elType": "widget","widgetType": "icon-box","settings": {"title_text": "Dostawa w całej Polsce", "description_text": "Bezpieczny transport", "selected_icon": {"value": "fas fa-truck"}}}]},
+        {"id": "usp_2","elType": "column","settings": {"_column_size": 33},"elements": [{"id": "usp_h2","elType": "widget","widgetType": "icon-box","settings": {"title_text": "14 dni na zwrot", "description_text": "Zakupy bez ryzyka", "selected_icon": {"value": "fas fa-undo"}}}]},
+        {"id": "usp_3","elType": "column","settings": {"_column_size": 33},"elements": [{"id": "usp_h3","elType": "widget","widgetType": "icon-box","settings": {"title_text": "Wsparcie doradcy", "description_text": "Pomoc przed zakupem", "selected_icon": {"value": "fas fa-headset"}}}]}
+      ]
+    },
+    {
+      "id": "prmb_inspirations",
+      "elType": "section",
+      "settings": {"css_classes": "prmb-inspirations", "content_width": "boxed"},
+      "elements": []
+    },
+    {
+      "id": "prmb_newsletter",
+      "elType": "section",
+      "settings": {"css_classes": "prmb-newsletter", "content_width": "boxed"},
+      "elements": [
+        {"id": "nl_col_1","elType": "column","settings": {"_column_size": 60},"elements": [{"id": "nl_h","elType": "widget","widgetType": "heading","settings": {"title": "Zapisz się do newslettera"}},{"id": "nl_t","elType": "widget","widgetType": "text-editor","settings": {"editor": "Otrzymuj promocje i inspiracje wnętrzarskie."}}]},
+        {"id": "nl_col_2","elType": "column","settings": {"_column_size": 40},"elements": [{"id": "nl_form_placeholder","elType": "widget","widgetType": "shortcode","settings": {"shortcode": "[newsletter_form]"}}]}
+      ]
+    }
+  ]
+}
