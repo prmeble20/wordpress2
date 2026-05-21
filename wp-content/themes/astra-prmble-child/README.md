@@ -36,3 +36,4 @@ W pliku `style.css` zmień zmienne CSS w `:root`:
 3. Utwórz nową stronę i kliknij `Edytuj w Elementor`.
 4. Wstaw zaimportowany szablon `PRMBLE Home Starter`.
 5. Podmień placeholdery obrazów, produkty i teksty na docelowe.
+6. W sekcji newsletter ustaw własny shortcode formularza (domyślnie: `[newsletter_form]`).

@@ -212,3 +212,30 @@ textarea {
 .prmb-newsletter input[type="text"] {
   min-height: 46px;
 }
+
+.prmb-hero .elementor-heading-title {
+  letter-spacing: 0.2px;
+}
+
+.prmb-hero .elementor-widget-heading:first-child .elementor-heading-title {
+  display: inline-block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--prmb-accent);
+  background: #f2e9eb;
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+.prmb-usp-strip .elementor-icon-box-wrapper {
+  padding: 12px;
+}
+
+.prmb-usp-strip .elementor-icon-box-title {
+  color: var(--prmb-text);
+}
+
+.prmb-usp-strip .elementor-icon {
+  color: var(--prmb-accent);
+}
