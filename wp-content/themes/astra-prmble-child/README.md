@@ -37,3 +37,16 @@ W pliku `style.css` zmień zmienne CSS w `:root`:
 4. Wstaw zaimportowany szablon `PRMBLE Home Starter`.
 5. Podmień placeholdery obrazów, produkty i teksty na docelowe.
 6. W sekcji newsletter ustaw własny shortcode formularza (domyślnie: `[newsletter_form]`).
+
+
+## Wersja production – gotowe shortcode
+- ` [prmb_featured_products limit="8" columns="4" orderby="date" order="DESC"] ` – sekcja produktów do wstawienia w Elementorze (widget Shortcode).
+- ` [prmb_mini_cart] ` – mini-koszyk do osadzenia np. w nagłówku (Elementor Header / HTML / Shortcode).
+
+### Rekomendowany układ strony głównej (production)
+1. Hero (`prmb-hero`).
+2. Kategorie (`prmb-category-grid`).
+3. Produkty: dodaj sekcję `prmb-featured-products` i wstaw shortcode ` [prmb_featured_products] `.
+4. USP (`prmb-usp-strip`).
+5. Inspiracje (`prmb-inspirations`).
+6. Newsletter (`prmb-newsletter`).
